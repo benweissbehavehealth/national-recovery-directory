@@ -1,0 +1,161 @@
+# DuckDB Database Files
+*.duckdb
+*.duckdb.wal
+*.duckdb-shm
+*.duckdb-wal
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Logs
+*.log
+logs/
+log/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Data files (large files that should be excluded)
+*.csv
+*.json
+*.parquet
+*.zip
+*.tar.gz
+*.rar
+
+# Sensitive data
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+config.json
+secrets.json
+*.key
+*.pem
+*.p12
+
+# MotherDuck tokens and credentials
+motherduck_token.txt
+*.token
+
+# Database backups
+*.backup
+*.bak
+*.sql
+
+# Extraction logs and temporary data
+extraction_logs/
+temp_*/
+temp_*.parquet
+
+# Large data directories (comment out if you want to include them)
+# 03_raw_data/
+# 04_processed_data/databases/
+# 04_processed_data/master_directories/
+
+# Specific exclusions for this project
+SAMHSA Directory/
+*.html
+*.htm
+*.xml
+*.xlsx
+*.xls
+
+# Selenium and browser automation
+geckodriver.log
+chromedriver.log
+*.crash
+
+# Network analysis outputs
+network_analysis_*.json
+network_visualization_*.json
+
+# Migration reports
+migration_report_*.txt
+
+# UI server logs
+ui_server.log
+
+# Keep specific important files
+!requirements.txt
+!README.md
+!LICENSE
+!.gitignore 

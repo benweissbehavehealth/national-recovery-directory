@@ -1,0 +1,11 @@
+Multi-Source Inpatient Facility Extraction Summary
+==================================================
+Extraction Date: 2025-07-31T09:34:35.215174
+Total Unique Facilities: 0
+
+Facilities by Source:
+  - state_directories: 0
+  - va_medical_centers: 0
+  - hospital_associations: 0
+
+Facilities by State:
